@@ -6,7 +6,7 @@ Challenge Track 5.
 ## Problem Definition
 
 For the purpose of this task, we utilize the proposed CityFlow-NL Benchmark in
-a \textit{single-view} setup. For each single-view track, we bundle it with
+a *single-view* setup. For each single-view track, we bundle it with
 three different NL descriptions.
 
 We divide the CityFlow-NL into training and testing splits. We build the
@@ -15,7 +15,7 @@ rank all single-view tracks based on each query set.
 
 ## Evaluation Metrics
 The Vehicle Retrieval by NL Descriptions task is evaluated using standard
-metrics for retrieval tasks~\cite{manning2008introduction}.  We use the Mean
+metrics for retrieval tasks.  We use the Mean
 Reciprocal Rank (MRR) as the main evaluation metric. Recall @ 1, Recall @ 5,
 and Recall @ 10 are also evaluated for all approaches.
 
