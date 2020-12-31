@@ -1,0 +1,11 @@
+# COPYRIGHT 2020. Fred Fung. Boston University.
+absl-py>=0.10.0
+colorama>=0.4.3
+colorlog>=4.4.0
+opencv-python>=4.4.0.44
+scikit-image>=0.17.2
+torch>=1.6.0
+torchvision>=0.7.0
+tqdm>=4.50.2
+transformers>=4.0.1
+yacs>=0.1.8
