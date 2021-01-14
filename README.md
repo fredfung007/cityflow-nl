@@ -4,6 +4,10 @@ This dataset is curated for the Natural Language (NL) Based Vehicle Retrieval
 Challenge Track of the 2021 AI City Workshop.
 
 ## Contents in this repository
+`data/extract_vdo_frms.py` is a Python script that is used to extract frames
+from videos provided in Challenge Track 3 (MTMC). Please use this script to
+extract frames, so that the path configurations in JSON files are consistent.
+
 `data/train-tracks.json` is a dictionary of all 2,498 vehicle tracks in the
 training split. Each vehicle track is annotated with three natural language
 descriptions of the target and is assigned a universally unique identifier
