@@ -1,7 +1,7 @@
 # Natural Language-Based Vehicle Retrieval
 
 This dataset is curated for the Natural Language (NL) Based Vehicle Retrieval
-Challenge Track in the 2021 AI City Workshop.
+Challenge Track of the 2021 AI City Workshop.
 
 ## Contents in this repository
 `data/train-tracks.json` is a dictionary of all 2,498 vehicle tracks in the
@@ -22,17 +22,17 @@ descriptions of the target and is assigned a universally unique identifier
   "track-uuid-2": ...
 }
 ```
-The files under `frames` attribute are paths in the CityFlow Benchmark [2] used
+The files under the `frames` attribute are paths in the CityFlow Benchmark [2] used
 in Challenge Track 2 of the 2021 AI City Challenge.
 
 `data/test-tracks.json` contains 530 tracks of target vehicles. The structure
 of this file is identical to the training split, except that the natural
 language descriptions are removed.
 
-`data/test-queiries.json` contains 530 queries, each consist of three natural
-language descriptions of the vehicle target annotated by different crowd source
-workers. Each query is assigned a UUID that is later used in results
-submission.  The structure of this file is as follows:
+`data/test-queiries.json` contains 530 queries. Each consists of three natural
+language descriptions of the vehicle target annotated by different annotators.
+Each query is assigned a UUID that is later used in results submission.  The
+structure of this file is as follows:
 ```json
 {
   "query-uuid-1": [
@@ -44,14 +44,14 @@ submission.  The structure of this file is as follows:
 }
 ```
 
-`baseline/` directory contains a baseline model that measures the similarity
+The `baseline/` directory contains a baseline model that measures the similarity
 between language descriptions and frame crops in a track. Details of this model
 can be found in [1].
 
 ## Problem Definition
 
 Teams should retrieve and rank the provided vehicle tracks for each of the
-query. A baseline retrieval model is provided as a demo for a start point for
+queries. A baseline retrieval model is provided as a demo for a start point for
 participating teams.
 
 ## Submission Format
@@ -66,7 +66,7 @@ dictionary in the following format:
 }
 ```
 
-A sample JSON file of submission for the baseline model is available at
+A sample JSON file of submission for the baseline model is available in
 `baseline/baseline-results.json`.
 
 ## Evaluation Metrics
