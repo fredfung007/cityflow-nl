@@ -29,7 +29,7 @@ in Challenge Track 2 of the 2021 AI City Challenge.
 of this file is identical to the training split, except that the natural
 language descriptions are removed.
 
-`data/test-queiries.json` contains 530 queries. Each consists of three natural
+`data/test-queries.json` contains 530 queries. Each consists of three natural
 language descriptions of the vehicle target annotated by different annotators.
 Each query is assigned a UUID that is later used in results submission.  The
 structure of this file is as follows:
