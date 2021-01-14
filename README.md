@@ -82,7 +82,8 @@ The provided baseline model’s MRR is 0.0269, Recall @ 5 is 0.0264, Recall @ 10
 ## Citations
 Please cite this work:
 
-[1] 
+[1] Feng, Qi, et al. "CityFlow-NL: Tracking and Retrieval of Vehicles at City
+Scale by Natural Language Descriptions." arXiv preprint. arXiv:2101.04741. 
 
 ## References
 [2] Tang, Zheng, et al. "Cityflow: A city-scale benchmark for multi-target
