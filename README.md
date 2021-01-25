@@ -29,12 +29,12 @@ descriptions of the target and is assigned a universally unique identifier
 }
 ```
 
-The files under the `frames` attribute are paths in the CityFlow Benchmark [2] used
-in Challenge Track 2 of the 2021 AI City Challenge.
+The files under the `frames` attribute are paths in the CityFlow Benchmark [2]
+used in Challenge Track 2 of the 2021 AI City Challenge.
 
-`data/test-tracks.json` contains 530 tracks of target vehicles. The structure
-of this file is identical to the training split, except that the natural
-language descriptions are removed.
+`data/test-tracks.json` contains 530 tracks of target vehicles. The structure of
+this file is identical to the training split, except that the natural language
+descriptions are removed.
 
 `data/test-queries.json` contains 530 queries. Each consists of three natural
 language descriptions of the vehicle target annotated by different annotators.
@@ -64,9 +64,9 @@ participating teams.
 
 ## Submission Format
 
-For each query, teams should submit a list of the testing tracks ranked by
-their retrieval model.  One JSON file should be submitted containing a
-dictionary in the following format:
+For each query, teams should submit a list of the testing tracks ranked by their
+retrieval model.  One JSON file should be submitted containing a dictionary in
+the following format:
 
 ```json
 {
@@ -86,8 +86,8 @@ metrics for retrieval tasks.  We use the Mean Reciprocal Rank (MRR) [3] as the
 main evaluation metric. Recall @ 5, Recall @ 10, and Recall @ 25 are also
 evaluated for all submissions.
 
-The provided baseline model’s MRR is 0.0269, Recall @ 5 is 0.0264, Recall @ 10 is
-0.0491, Recall @ 25 is 0.1113.
+The provided baseline model’s MRR is 0.0269, Recall @ 5 is 0.0264, Recall @ 10
+is 0.0491, Recall @ 25 is 0.1113.
 
 ## Citations
 
@@ -101,5 +101,5 @@ Scale by Natural Language Descriptions." arXiv preprint. arXiv:2101.04741.
 [2] Tang, Zheng, et al. "CityFlow: A city-scale benchmark for multi-target
 multi-camera vehicle tracking and re-identification." CVPR. 2019.
 
-[3] Voorhees, Ellen M. "The TREC-8 question answering track report." Trec.
-Vol. 99. 1999.
+[3] Voorhees, Ellen M. "The TREC-8 question answering track report." Trec. Vol.
+99. 1999.
