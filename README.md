@@ -5,7 +5,7 @@ Challenge Track of the 2021 AI City Workshop.
 
 The workshop summary paper is available on ArXiv: https://arxiv.org/abs/2104.12233
 ```
-@InProceedings{Naphade21AIC21,
+@inproceedings{naphade2021AIC21,
 author = {Milind Naphade and Shuo Wang and David C. Anastasiu and Zheng Tang and Ming-Ching Chang and Xiaodong Yang and Yue Yao and Liang Zheng
 and Pranamesh Chakraborty and Anuj Sharma and Qi Feng and Vitaly Ablavsky and Stan Sclaroff},
 title = {The 5th AI City Challenge},
