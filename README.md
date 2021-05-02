@@ -3,6 +3,18 @@
 This dataset is curated for the Natural Language (NL) Based Vehicle Retrieval
 Challenge Track of the 2021 AI City Workshop.
 
+The workshop summary paper is available on ArXiv: https://arxiv.org/abs/2104.12233
+```
+@InProceedings{Naphade21AIC21,
+author = {Milind Naphade and Shuo Wang and David C. Anastasiu and Zheng Tang and Ming-Ching Chang and Xiaodong Yang and Yue Yao and Liang Zheng
+and Pranamesh Chakraborty and Anuj Sharma and Qi Feng and Vitaly Ablavsky and Stan Sclaroff},
+title = {The 5th AI City Challenge},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2021},
+}
+```
+
 ## Contents in this repository
 
 `data/extract_vdo_frms.py` is a Python script that is used to extract frames
